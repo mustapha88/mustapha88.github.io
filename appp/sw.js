@@ -1,4 +1,4 @@
-let cache_version = 'abtaq_mustapha_v3';//44
+let cache_version = 'abtaq_mustapha_v4';//44
 //let converFrom = document.getElementById('converF').value;
 //let converTo = document.getElementById('converT').value;
 //let api = `https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra`; //4b
@@ -9,9 +9,9 @@ self.addEventListener('install', function(event){ //install a service worker
 			return cache.addAll([
                 
 				'./',
-                './curren.html',
+                './curren_db.html',
                 './curren.css',
-				'./curren.js',
+				'./idb_currency.js',
         'https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra'
                 
 	]).catch(function (err) {
