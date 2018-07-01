@@ -14,19 +14,29 @@ h1{
     margin-top: 80px;
     
   }
-
-  #inpu{
+#inpu{
    
     text-align: center;
-    margin-top: 93px;
+    margin-top: 79px;
     
+    
+  }
+  #calc{
+   
+    border : 2px solid black;
+     text-align: center;
+
+  }
+  #in{
+    text-align: center;
+    margin-top: 75px;
     
   }
   #butt{
   	
   	text-align: center;
-  	margin-top:86px;
-  	}
+  	margin-top:77px;
+  
   	button{ 
   		width: 200px; 
   		height: 75px; 
