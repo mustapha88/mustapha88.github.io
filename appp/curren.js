@@ -32,7 +32,8 @@ function getCurrency() {
   	//alert(data[`${converFrom}_${converTo}`]);
   	console.log(data);
   		
-    let x = Object.values(data)[0];
+    let x = Object.values(data)[0]*document.getElementById('calc').value ;
+;
    	document.getElementById('inp').value= x;
 
    	//document.getElementById('inp').disabled= true;
