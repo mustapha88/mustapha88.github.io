@@ -1,4 +1,4 @@
-let cache_version = 'abtaq_mustapha_v4';//44
+let cache_version = 'abtaq_mustapha_v3';//44
 //let converFrom = document.getElementById('converF').value;
 //let converTo = document.getElementById('converT').value;
 //let api = `https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra`; //4b
