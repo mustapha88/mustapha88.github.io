@@ -257,6 +257,17 @@
 			
 	
 	</script>
+	<script>
+		
+			window.addEventListener('load', function() { 
+		navigator.serviceWorker.register('./sw.js', {scope : './'} ).then(function(reg) {
+			console.log('Sw register work!!!', reg.scope);
+		}, function(err){
+			console.log('register failed!', err);
+		});
+	});
+	
+	</script>
 	
 </body>
 </html>
