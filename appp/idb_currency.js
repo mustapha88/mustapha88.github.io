@@ -53,7 +53,7 @@ function getCurrency() {
           
           let url = `https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra`;
           
-          fetch(url)
+          fetch(url,{ mode: 'no-cors'})
             .then(  response => {
                return response.json();
 
