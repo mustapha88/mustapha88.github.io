@@ -11,25 +11,33 @@ h1{
   #me{
     position: relative;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 70px;
     
   }
 
   #inpu{
    
     text-align: center;
-    margin-top: 93px;
+    margin-top: 79px;
     
     
   }
-  #calc{
+ #calc{
+   
+    border : 2px solid black;
+     text-align: center;
+
+  }
+  #in{
     text-align: center;
-    margin-top: 72px;
+    margin-top: 75px;
+    
   }
+  
   #butt{
   	
   	text-align: center;
-  	margin-top:86px;
+  	margin-top:77px;
   	}
   	button{ 
   		width: 200px; 
