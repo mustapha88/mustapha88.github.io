@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## ALC Challenge Currency Converter
 
 You can use the [editor on GitHub](https://github.com/mustapha88/mustapha88.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
