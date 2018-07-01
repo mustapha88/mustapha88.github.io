@@ -13,7 +13,7 @@ function getCurrency() {
    let query =[`${converFrom}_${converFrom}`];
    
  let url = `https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra`;
-	fetch(url)
+	fetch(url,{ mode: 'no-cors'})
 	/*.then(  response => {
 		console.log(' response received')
 	}).then(data => {
