@@ -11,7 +11,7 @@ self.addEventListener('install', function(event){ //install a service worker
 				'./',
                 './curren_db.html',
                 './curren.css',
-				'./idb_curreny.js',
+				'./idb_currency.js',
         'https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra'
                 
 	]).catch(function (err) {
