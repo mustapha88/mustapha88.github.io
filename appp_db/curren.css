@@ -1,0 +1,67 @@
+h1{
+ color: red; 
+ text-align: center;
+  
+  }
+  h2{
+  	color:purple;
+  	text-align: center;
+  }
+  
+  #me{
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    
+  }
+
+  #inpu{
+   
+    text-align: center;
+    margin-top: 93px;
+    
+    
+  }
+  #calc{
+    text-align: center;
+    margin-top: 72px;
+  }
+  #butt{
+  	
+  	text-align: center;
+  	margin-top:86px;
+  	}
+  	button{ 
+  		width: 200px; 
+  		height: 75px; 
+  		background-color: #00FFAA;
+  		 border-radius: 50px 50px 50px 50px;
+  		 -moz-outline-style: none;
+  		 border: 2px solid red; }
+
+
+  #inp{
+  	width: 245px; 
+  	height: 45px;
+  	border-radius: 20px 20px 20px 20px;
+  	border: 2px solid purple;
+  }
+  #converT{
+ background-color: #FFFACD; 
+ border-radius: 14px;
+ height: 60px;
+ border: 2px solid black;
+ -moz-outline-style: none;
+ outline: none;
+  }
+  #converF{
+  	background-color: #FFFACD; 
+ border-radius: 14px;
+ height: 60px;
+ border: 2px solid black;
+ -moz-outline-style: none;
+ outline: none;
+  }
+  #sinp{
+  	background-color: #00FFAA; border-radius: 14px 14px 14px 14px;height: 45px; outline: 0;  border:2px solid grey;-moz-outline-style:none;
+  }
