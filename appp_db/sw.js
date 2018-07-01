@@ -9,7 +9,7 @@ self.addEventListener('install', function(event){ //install a service worker
 			return cache.addAll([
                 
 				'./',
-                './curren_db.html',
+                './index.html',
                 './curren.css',
 				'./idb_currency.js',
         'https://free.currencyconverterapi.com/api/v5/convert?q=${converFrom}_${converTo}&compact=ultra'
